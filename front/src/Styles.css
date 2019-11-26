@@ -1,0 +1,598 @@
+
+body{
+    margin: auto;
+    font: 15px Marker Impact, sans-serif;
+    overflow-x: hidden;
+
+}
+
+p,a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.navbar{
+    height: 150px;
+    width: 100%;
+}
+
+.navbar .links {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.navbar .links a{
+    padding: 3px;
+    text-decoration: none;
+}
+
+.navbar .links a{
+    color: black;
+    font-size: 18px;
+}
+
+.brandName{
+    color: black;
+    text-decoration: none;
+    font: 30px Marker Impact, sans-serif;
+    padding-top: 30px;
+    font-weight: 600;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.header{
+    background-image: url("./images/header3.jpg");
+    width: 100%;
+    height: 180px;
+}
+
+
+
+.sidebar{
+    padding: 9px 150px 0 20px ;
+
+}
+
+.sidebar select{
+    border: none;
+    font-size: 15px;
+}
+
+li {
+    list-style-type: none;
+}
+ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.shop{
+    margin: 40px;
+    display: flex;
+    box-sizing: border-box;
+    height: 1200px;
+}
+
+.shop img{
+    width: 270px;
+    min-height: 360px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+
+.card{
+
+}
+
+.card h3{
+    text-decoration: none;
+    color: black;
+}
+
+.card-title{
+    width: 150px;
+}
+
+.card-price{
+
+}
+
+.card button{
+    float: right;
+    font: 16px 'Montserrat',sans-serif;
+    background: black;
+    color: white;
+    cursor: pointer;
+    border: none;
+    width: 120px;
+    height: 40px;
+    margin-top: -70px;
+
+}
+
+
+.shop .products, .samples{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    overflow: auto;
+
+}
+
+.homeHeader{
+
+    height: 440px;
+    width: 100%;
+    background-size: cover;
+}
+
+.homeHeader_1{
+    background-image: url("./images/header2.jpg");
+}
+
+.homeHeader_2{
+    background-image: url("./images/heager.jpg");
+}
+
+.homeHeader_3{
+    background-image: url("./images/header3.jpg");
+}
+
+
+
+.homeHeader h1{
+    font-size: 40px;
+    width: 600px;
+}
+
+.homeHeader p{
+    font-size: 20px;
+    width: 600px;
+}
+
+.homeHeader .info{
+    padding: 80px 800px;
+
+}
+
+.homeHeader button{
+    width: 150px;
+    height: 50px;
+    background: black;
+    color: white;
+    font-size: 15px;
+}
+
+.home{
+    width: 100%;
+}
+
+.home h2{
+    text-align: center;
+}
+
+.home img{
+    width: 270px;
+    min-height: 360px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.home .collections{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+
+.home .collections .col{
+    width: 30%;
+    height: 250px;
+    margin: 10px;
+}
+
+.home .col_1{
+    background: url('images/col1.png');
+}
+
+.home .col_2{
+    background: url('images/col2.png');
+}
+
+.home .col_3{
+    background: url('images/col3.png');
+}
+
+.home .samples{
+    margin: 0 60px;
+}
+
+.home .join{
+    background: #fbf0ec;
+    width: 90%;
+    height: 250px;
+    margin: -30px auto;
+}
+
+.home h3{
+    text-align: left;
+    font-size: 25px;
+    margin: 0;
+
+}
+
+.home .left-arrow, .home .right-arrow{
+    font-size: 40px;
+    color: black;
+    background: none;
+    border: none;
+    font-stretch:  ultra-condensed;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    position: absolute;
+}
+
+.home .left-arrow{
+    top: 540px;
+    left: 10px;
+}
+
+.home .right-arrow{
+    top: 540px;
+    left: 40px;
+
+}
+
+
+.col div{
+    margin: 105px 40px;
+}
+
+.col a{
+    text-decoration: underline;
+    padding-top: 5px;
+    color: black;
+}
+
+.join input, .join button{
+    display: block;
+    margin: 15px auto;
+}
+
+.join input{
+    width: 400px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid grey;
+    text-align: center;
+    background: #fbf0ec;
+}
+
+
+.join button{
+    width: 150px;
+    height: 50px;
+    background: black;
+    color: white;
+    font-size: 15px;
+}
+
+.card{
+    margin: 30px;
+}
+
+
+.checkout{
+    width: 100%;
+    height: 600px;
+}
+
+
+.empty-cart{
+    width: 100%;
+    height: 400px;
+}
+
+.empty-cart button {
+    width: 150px;
+    height: 50px;
+    background: black;
+    color: white;
+    font-size: 15px;
+    margin: 0 44%;
+}
+
+.checkout button{
+    width: 150px;
+    height: 50px;
+    background: black;
+    color: white;
+    font-size: 15px;
+}
+
+
+.empty-cart h2, .checkout h2{
+    margin: 30px 0;
+text-align: center;
+}
+
+.cart{
+    min-height: 600px;
+    display: flex;
+    margin: 30px 10%;
+}
+
+.cart h3{
+    font-size: 25px;
+}
+
+
+
+.shopping-cart img{
+    width: 120px;
+    height: 160px;
+    margin: 20px 0;
+}
+
+
+.item-desc{
+    display: flex;
+}
+
+.item-desc .info{
+    margin: 60px 0;
+    width: 200px;
+
+}
+
+.item-desc .quantity{
+    margin: 60px 10px;
+    font-size: 15px;
+}
+
+.item-desc button{
+    border: none;
+    font-size: 25px;
+
+}
+
+/*
+.item-desc .quantity a {
+    border: 1px solid #333;
+    background: #fbf0ee;
+    padding: 3px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+}*/
+/*
+
+.item-desc .quantity b{
+    border-bottom: 1px solid #333 ;
+    border-top: 1px solid #333 ;
+    padding: 4px 15px;
+    font-size: 18px;
+
+}*/
+
+.item-desc .quantity input{
+    height: 40px;
+    width: 130px;
+    appearance: none;
+    border: 1px solid #bbb;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.shopping-cart .item-desc{
+    height: 200px;
+    margin: 20px;
+}
+
+.shopping-cart{
+    width: 70%;
+    padding: 0 30px;
+}
+
+.shopping-cart li{
+
+    border-bottom: #ddd 1px solid;
+}
+
+
+.cart-totals .collection{
+    background: #eee;
+    width: 300px;
+    padding: 30px;
+    height: 150px;
+}
+
+.cart-totals button{
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    background: black;
+    color: white;
+}
+
+.cart-totals .ar-button{
+    width: 40px;
+}
+
+.cart-totals input{
+    width: 250px;
+    height: 35px;
+    font-size: 15px;
+}
+
+.cart-totals a{
+    text-decoration: none;
+
+}
+
+
+.collection-item{
+    display: flex;
+    margin: 10px;
+}
+
+.remove{
+    cursor: pointer;
+}
+
+
+
+.footer{
+    height: 150px;
+    width: 100%;
+    background: black;
+}
+
+
+
+
+.productPage{
+    display: flex;
+    margin: 50px 150px;
+}
+
+.productPage img{
+    width: 540px;
+    height: 720px;
+}
+
+.productInfo {
+    font-size: 20px;
+    padding: 0 50px;
+}
+
+.productInfo h3{
+    font-size: 25px;
+}
+
+.productInfo button{
+    font: 16px 'Montserrat',sans-serif;
+    background: black;
+    color: white;
+    cursor: pointer;
+    border: none;
+    width: 120px;
+    height: 40px;
+}
+
+
+.order form{
+    margin: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.order form div{
+  background: #fbf0ec;
+    width: 400px;
+}
+
+.order input, .order select, .order textarea{
+    display: block;
+    margin: 10px 20px;
+    height: 25px;
+    width: 200px;
+
+}
+
+.order h2, .order label, .order h3, .order p{
+    margin: 20px;
+}
+
+
+
+.order select{
+    border: none;
+    font-size: 15px;
+    height: 25px;
+    width: 200px;
+    background: white;
+
+}
+
+.order textarea{
+    border: 1px solid #fbf0ec;
+    font-size: 15px;
+    height: 60px;
+    width: 300px;
+    background: white;
+    margin-bottom: 20px;
+}
+
+.order button{
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    background: black;
+    color: white;
+    margin: 10px 20px;
+}
+
+.paymentForm{
+    width: 700px;
+    margin: 80px auto;
+    display: flex;
+    height: 300px;
+}
+
+.paymentInputs {
+    width: 350px;
+    margin: -20px 50px;
+
+}
+
+.paymentInputs input  {
+
+    font-size: 15px;
+    width: 300px;
+    height: 35px;
+    display: block;
+    text-align: center;
+    margin: 10px 10px 0 0 ;
+
+}
+
+.paymentInputs button{
+    width: 306px;
+    height: 40px;
+    font-size: 15px;
+    margin: 20px 0;
+    background: black;
+    color: white;
+}
+
+.inline input{
+    display: inline-block;
+    width: 142px;
+}
+
+
+.samples img{
+    width: 270px;
+    min-height: 360px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.samples{
+    height: 500px;
+}
+
+@media(max-width: 1000px) {
+
+}
+
+@media(max-width: 700px){
+
+}
