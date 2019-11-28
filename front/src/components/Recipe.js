@@ -8,7 +8,7 @@ class Recipe extends React.Component {
     return (
       <div className="cart-totals">
         <h3>Cart Totals </h3>
-        <div className="collection">
+        <div className="totals">
           <h4>
             Total: ${this.props.total}
           </h4>
@@ -30,9 +30,5 @@ const mapStateToProps = (state) => {
   };
 };
 
-const mapDispatchToProps = (dispatch) => {
-  return {
-  };
-};
 
-export default connect(mapStateToProps, mapDispatchToProps)(Recipe);
+export default connect(mapStateToProps)(Recipe);

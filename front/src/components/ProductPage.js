@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { itemsFetchData, addToCart } from './actions/cartActions';
+import {withAlert} from "react-alert";
 
 
 class ProductPage extends React.Component {
@@ -25,7 +26,7 @@ class ProductPage extends React.Component {
           <h3 className="card-title">{item.title}</h3>
           <p className="card-price">${item.price}</p>
           <p className="card-desc">{item.desc}</p>
-          <button type="button" className="btn-floating halfway-fab waves-effect waves-light red" onClick={() => {this.handleClick(item.id)}}><i className="material-icons"> Add to Cart </i> </button>
+          <button type="button" className="btn-floating halfway-fab waves-effect waves-light red" onClick={() => {this.props.alert.success(`${item.title} was added to your cart`); this.handleClick(item.id);}}><i className="material-icons"> Add to Cart </i> </button>
         </div>
       </div>));
     return (
@@ -55,4 +56,4 @@ const mapDispatchToProps = (dispatch) => {
   };
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(ProductPage);
+export default withAlert()(connect(mapStateToProps, mapDispatchToProps)(ProductPage));

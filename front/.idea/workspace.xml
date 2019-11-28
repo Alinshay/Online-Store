@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f9abc6ae-5197-472f-a9d5-948454d3610f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Styles.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,10 +22,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
-  </component>
   <component name="ProjectId" id="1U7aPiHUuCO9AwZqp52NWLcVvdI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
@@ -35,6 +33,7 @@
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="$PROJECT_DIR$/node_modules/eslint" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -59,7 +58,74 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="Jest.&gt;&gt;&gt;Checkout">
+    <configuration name="&gt;&gt;&gt; ACTIONS &gt;&gt;&gt;" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/__test__/actions.test.js" />
+      <test-names>
+        <test-name value="&gt;&gt;&gt; ACTIONS &gt;&gt;&gt;" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="&gt;&gt;&gt; ACTIONS &gt;&gt;&gt;.addToCart" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/__test__/actions.test.js" />
+      <test-names>
+        <test-name value="&gt;&gt;&gt; ACTIONS &gt;&gt;&gt;" />
+        <test-name value="addToCart" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="&gt;&gt;&gt;Checkout" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/__test__/components.spec.js" />
+      <test-names>
+        <test-name value="&gt;&gt;&gt;Checkout" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="&gt;&gt;&gt;H O M E --- Snapshot" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/__test__/components.spec.js" />
+      <test-names>
+        <test-name value="&gt;&gt;&gt;H O M E --- Snapshot" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="&gt;&gt;&gt;H O M E --- Snapshot.+++capturing Snapshot of Home" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/__test__/components.spec.js" />
+      <test-names>
+        <test-name value="&gt;&gt;&gt;H O M E --- Snapshot" />
+        <test-name value="+++capturing Snapshot of Home" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -73,6 +139,15 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.&gt;&gt;&gt;Checkout" />
+        <item itemvalue="Jest.&gt;&gt;&gt;H O M E --- Snapshot" />
+        <item itemvalue="Jest.&gt;&gt;&gt;H O M E --- Snapshot.+++capturing Snapshot of Home" />
+        <item itemvalue="Jest.&gt;&gt;&gt; ACTIONS &gt;&gt;&gt;" />
+        <item itemvalue="Jest.&gt;&gt;&gt; ACTIONS &gt;&gt;&gt;.addToCart" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -90,6 +165,7 @@
       <workItem from="1574635799642" duration="614000" />
       <workItem from="1574710078047" duration="22179000" />
       <workItem from="1574793844756" duration="45000" />
+      <workItem from="1574808328765" duration="16750000" />
     </task>
     <servers />
   </component>

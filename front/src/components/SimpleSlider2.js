@@ -36,7 +36,7 @@ class SimpleSlider2 extends React.Component {
     ))
 
     return (
-      <div className="home">
+      <div className="home slider-2">
         <Slider {...settings}>
           {itemList}
         </Slider>
@@ -62,4 +62,4 @@ const mapDispatchToProps = (dispatch) => {
   };
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(SimpleSlider2)
+export default connect(mapStateToProps, mapDispatchToProps)(SimpleSlider2);

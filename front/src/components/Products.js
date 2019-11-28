@@ -23,7 +23,7 @@ class Products extends React.Component {
         <h3 className="card-title">{item.title}</h3>
       </Link>
       <p className="card-price">${item.price}</p>
-      <button type="button" onClick={() => {this.props.alert.success(`${item.title} was added to your Cart`); this.handleClick(item.id)}}> Add to Cart </button>
+      <button type="button" onClick={() => {this.props.alert.success(`${item.title} was added to your cart`); this.handleClick(item.id);}}> Add to Cart </button>
     </div>
     ));
 

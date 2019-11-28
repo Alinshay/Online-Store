@@ -4,7 +4,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { Link } from 'react-router-dom';
 
-function SimpleSlider() {
+export default function SimpleSlider() {
   const settings = {
     dots: true,
     speed: 1000,
@@ -51,4 +51,4 @@ lom himenaeos lorem ean consertquat estruda cono pero.
   );
 }
 
-export default SimpleSlider;
+

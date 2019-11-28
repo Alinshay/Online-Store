@@ -3,7 +3,7 @@ import Sidebar from './Sidebar';
 import Products from './Products';
 
 
-class Home extends React.Component {
+class Shop extends React.Component {
     render(){
 
         return(
@@ -15,10 +15,9 @@ class Home extends React.Component {
                 <Products/>
             </div>
             </div>
-
-        )
+        );
     }
 }
 
-export default Home;
+export default Shop;
 

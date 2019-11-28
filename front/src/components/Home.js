@@ -53,16 +53,16 @@ class Home extends React.Component {
 
 const mapStateToProps = (state) => {
     return {
-        isPost: state.logic.isPost
+        isPost: state.logic.isPost,
     };
 };
 
 const mapDispatchToProps = (dispatch) => {
     return {
-        sendSubscription: (url) => dispatch(sendSubscription(url))
+        sendSubscription: (url) => dispatch(sendSubscription(url)),
     };
 };
 
-export default withAlert() (connect(mapStateToProps, mapDispatchToProps)(Home))
+export default withAlert()(connect(mapStateToProps, mapDispatchToProps)(Home));
 
 

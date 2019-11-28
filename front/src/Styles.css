@@ -53,7 +53,7 @@ p,a{
 
 
 .sidebar{
-    padding: 9px 150px 0 20px ;
+    padding: 9px 8% 0 20px ;
 
 }
 
@@ -74,7 +74,8 @@ ul {
     margin: 40px;
     display: flex;
     box-sizing: border-box;
-    height: 1200px;
+    height: auto;
+    min-height: 500px;
 }
 
 .shop img{
@@ -119,7 +120,6 @@ ul {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    overflow: auto;
 
 }
 
@@ -141,8 +141,6 @@ ul {
 .homeHeader_3{
     background-image: url("./images/header3.jpg");
 }
-
-
 
 .homeHeader h1{
     font-size: 40px;
@@ -190,6 +188,7 @@ ul {
 
 .home .collections .col{
     width: 30%;
+    min-width: 250px;
     height: 250px;
     margin: 10px;
 }
@@ -281,15 +280,8 @@ ul {
 }
 
 .card{
-    margin: 30px;
+    margin: 30px 10px;
 }
-
-
-.checkout{
-    width: 100%;
-    height: 600px;
-}
-
 
 .empty-cart{
     width: 100%;
@@ -320,7 +312,7 @@ text-align: center;
 }
 
 .cart{
-    min-height: 600px;
+    min-height: 500px;
     display: flex;
     margin: 30px 10%;
 }
@@ -342,10 +334,13 @@ text-align: center;
     display: flex;
 }
 
+.item-desc b{
+    color: black;
+}
+
 .item-desc .info{
     margin: 60px 0;
     width: 200px;
-
 }
 
 .item-desc .quantity{
@@ -405,7 +400,7 @@ text-align: center;
 }
 
 
-.cart-totals .collection{
+.cart-totals .totals{
     background: #eee;
     width: 300px;
     padding: 30px;
@@ -496,12 +491,17 @@ text-align: center;
 
 .order form div{
   background: #fbf0ec;
-    width: 400px;
+    width: 30%;
+}
+
+form  span{
+    display: block;
+    margin: 0 0 0 20px ;
+    color: red;
 }
 
 .order input, .order select, .order textarea{
-    display: block;
-    margin: 10px 20px;
+    margin: 0 20px 10px 20px;
     height: 25px;
     width: 200px;
 
@@ -560,7 +560,7 @@ text-align: center;
     height: 35px;
     display: block;
     text-align: center;
-    margin: 10px 10px 0 0 ;
+    margin: 10px 10px 0 0;
 
 }
 
@@ -589,10 +589,109 @@ text-align: center;
     height: 500px;
 }
 
-@media(max-width: 1000px) {
+@media(max-width: 1100px) {
+    .shop{
+        display: block;
+        height: auto;
+    }
+
+    .sidebar{
+        display: flex;
+    }
+
+    .sidebar select, .sidebar h3{
+        margin: 0 10px;
+    }
+
+    .order form{
+        display: block;
+        margin: 25px 50px;
+
+    }
+
+    .order form div{
+        width: 100%;
+        padding: 5px 0;
+    }
+
+    .cart{
+        display: block;
+        margin: auto;
+        height: auto;
+    }
+
+    .cart-totals{
+        margin: 30px;
+    }
+
+    .cart-totals .totals{
+        background: #eee;
+        width: 70%;
+        height: 100px;
+    }
+}
+
+
+@media(max-width: 900px){
+
+    .paymentForm{
+        display: block;
+        height: auto;
+        width: 100%;
+    }
+
+    .paymentInputs {
+        margin: 5% auto;
+
+    }
+
+    .paymentInputs input, .paymentInputs button{
+       width: 100%;
+    }
+
 
 }
 
-@media(max-width: 700px){
+
+@media(max-width: 700px) {
+
+    .products{
+        display: block;
+    }
+    .products .card{
+        margin: auto;
+    }
+
+    .homeHeader .info{
+        padding:0;
+    }
+
+    .homeHeader h1{
+        background: #fbf0ec;;
+        width: auto;
+        text-align: center;
+        margin: 10% auto;
+    }
+
+    .homeHeader p{
+        display: none;
+    }
+
+    .homeHeader button {
+        display: block;
+        margin: 10% auto;
+    }
+}
+
+@media(max-width: 600px){
+    .sidebar select, .sidebar h3{
+        display: none;
+    }
+
+    .slider-2{
+        display: none;
+    }
+
+
 
 }
